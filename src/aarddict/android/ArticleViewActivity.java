@@ -138,6 +138,7 @@ public class ArticleViewActivity extends BaseDictionaryActivity {
             getWindow().requestFeature(Window.FEATURE_PROGRESS);
             setContentView(R.layout.article_view);
             articleView = (ArticleView) findViewById(R.id.ArticleView);
+            articleView.setBackgroundColor(0);
         }
 
         timer = new Timer();
